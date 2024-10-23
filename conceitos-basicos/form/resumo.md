@@ -9,6 +9,6 @@ os ```<form>``` são tags usadas para receber tipos de dados em um <br>formulár
 | ```type="text"``` | servem para textos |
 | ```type="number"``` | apenas numeros |
 | ```type="password"``` | entrada de texto porém como senha |
-| ```type="button"``` | tipo que cria um botão |
+| ```type="submit"``` | um tipo que salva os dados e manda para algum local de armazenamento |
 
-Esses são alguns tipos de dados de uma tag filha, o [```<input>```](https://github.com/leuxtc/aulas-html/conceitos-basicos/input/), que são onde os dados serão colocados, e passados para um formulário
+Esses são alguns tipos (```type```) de dados de uma tag filha, o [```<input>```](https://github.com/leuxtc/aulas-html/tree/main/conceitos-basicos/input/), que são onde os dados serão colocados, e passados para um formulário
