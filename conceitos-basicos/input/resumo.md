@@ -16,6 +16,6 @@ que depois serão mandadas e usadas para
 | ```type="radio"``` | entrada de escolha |
 | ```type="range"``` | entrada para uma área de slide |
 | ```type="file"``` | entrada para enviar arquivos |
-| ```type="search"``` | apenas numeros |
+| ```type="search"``` | serve como uma área de pesquisa |
 
-Esses são alguns tipos (```type```) de dados de uma tag filha ```<input>```, que são aonde os dados serão colocados, e passados para um formulário (```<form>```)
+Esses são alguns tipos (```type```) de dados de uma tag filha ```<input>```, que são aonde os dados serão colocados, e passados para um formulário (```<form>```). Alguns deles só estão disponíveis em alguns navegadores.
