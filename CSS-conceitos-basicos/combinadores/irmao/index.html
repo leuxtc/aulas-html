@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #item-01 p + p {
+            background-color: aqua;
+        }
+
+        #item-02 p ~ p {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="item-01">
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <span>
+            <p>Parágrafo 3</p>
+            <p>Parágrafo 4</p>
+        </span>
+        <p>Parágrafo 5 </p>
+        <p>Parágrafo 6 </p>
+    </div>
+
+    <div id="item-02">
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <span>
+            <p>Parágrafo 3</p>
+            <p>Parágrafo 4</p>
+        </span>
+        <p>Parágrafo 5 </p>
+        <p>Parágrafo 6 </p>
+    </div>
+</body>
+</html>
