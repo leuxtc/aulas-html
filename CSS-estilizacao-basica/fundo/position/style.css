@@ -1,0 +1,9 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/12201404-bela-paisagem-de-plantacao-de-cha-verde-pela-manha-com-flores-de-laranja-em-primeiro-plano-2000-plantacao-de-cha-montanha-doi-angkhang-chiangmai-tailandia-gratis-foto.jpg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: bottom 20px left 20px;
+}

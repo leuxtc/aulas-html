@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+#exemplo-01 {
+    background-color: lightpink;
+}
+
+#exemplo-02 {
+    background-image: linear-gradient(lightpink, palevioletred, purple);
+}
+
+#exemplo-03 {
+    background-image: radial-gradient(lightpink, purple);
+}
+
+#exemplo-04 {
+    background-image: repeating-linear-gradient(to top, palevioletred 0px 20px, lightpink 20px 40px);
+}
+
+#exemplo-05 {
+    background-image: url(https://avatars.githubusercontent.com/u/76859490?v=4);
+}

@@ -1,0 +1,10 @@
+div {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 80px;
+    background-color: #87fff5c1;
+    background-image: url(https://i.pinimg.com/736x/93/3a/87/933a876b0b31bf253336e40aa7b8a69a.jpg);
+    background-size: 100% 100%;
+    background-blend-mode: soft-light;
+}

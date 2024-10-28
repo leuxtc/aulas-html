@@ -1,0 +1,20 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed lightgreen;
+    padding: 30px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: white;
+
+    background: 
+        url(https://i.pinimg.com/736x/93/3a/87/933a876b0b31bf253336e40aa7b8a69a.jpg)
+        top right / 200px 200px
+        no-repeat
+        local
+        padding-box
+        content-box
+        red
+    ;
+}
