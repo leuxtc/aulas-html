@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        [title="Prime"] {
+            color: red;
+        }
+
+        [title~="Streaming"] {
+            background-color: lightblue;
+        }
+
+        [href^="https"] {
+            font-weight: bold;
+        }
+
+        [href$="login"] {
+            color: white;
+            background-color: chocolate;
+        }
+
+        [href*="user"] {
+            color: rgb(0, 145, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a title="Streaming Netflix" href="https://netflix.com">Netflix</a>
+            </li>
+            <li>
+                <a title="Spotify Streaming" href="user https://spotify.com">Spotify</a>
+            </li>
+            <li>
+                <a title="Prime" href="https://prime.com/login">Prime</a>
+            </li>
+            <li>
+                <a title="Disney" href="http://disney.com/user">Disney</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

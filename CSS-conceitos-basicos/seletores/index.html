@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        h1 {
+            background-color: blue;
+            color: white;
+        }
+
+        div {
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        li {
+            background-color: aquamarine;
+        }
+
+        #texto-boas-vindas {
+            background-color: red;
+            color: white;
+        }
+
+        #explicacao {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .seletores-comuns {
+            color: blue;
+        }
+
+        * {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Seletores CSS</h1>
+    <p id="texto-boas-vindas">Bem-vindo!</p>
+    <p id="explicacao" >No CSS nós possuímos os seletores por ID</p>
+    <div>
+        <ul>
+            <li class="seletores-comuns"><b>Seletor por tipo:</b>Busca elementos por uma tag HTML específica</li>
+            <li class="seletores-comuns"><b>Seletor por ID(#):</b>Busca elementos atráves do atributo "id"</li>
+            <li class="seletores-comuns"><b>Seletor por Classe(.):</b>Busca elementos atráves do atributo "class"</li>
+            <li><b>Seletor por Universal(*):</b>Seleciona todos os elementos HTML</li>
+            <li><b>Seletor por Atributo([atrib]):</b>Seleciona elementos que possuem um atributo específico em nosso documento
+            HTML e conseguimos também buscar atributos com um valor específico</li>
+        </ul>
+    </div>
+</body>
+</html>
