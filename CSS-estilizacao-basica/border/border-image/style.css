@@ -1,0 +1,50 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-right: 10px;
+    border: 30px solid;
+    margin: 40px auto;
+}
+
+#border-image-source {
+    border-image-source: url(border.png);
+}
+
+
+#border-image-slice {
+    border-image-source: url(border.png);
+    border-image-slice: 169;
+}
+
+#border-image-repeat {
+    border-image-source: url(border.png);
+    border-image-slice: 169;
+    
+    border-image-repeat: repeat;
+}
+
+#border-image-width {
+    border-image-source: url(border.png);
+    border-image-repeat: round;
+    border-image-slice: 169;
+
+    border-image-width: 30px 10px 20px 40px;
+}
+
+#border-image-source-gradient {
+    border-image-source: linear-gradient(#b300ff, #48b6ff);
+    border-image-slice: 10;
+}
+
+#border-image-outset {
+    border-image-source: url(border.png);
+    border-image-repeat: repeat;
+    border-image-slice: 169;
+
+    border-image-outset: 1;
+}
+
+#border-image {
+    border-image: url(border.png) 169 / 10px / 1 round;
+}

@@ -1,0 +1,47 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#item1 {
+    border-style: dotted;
+    border-width: thick;
+    border-color: cornflowerblue;
+}
+
+#item2 {
+    border-style: dashed;
+    border-width: medium;
+    border-color: lightseagreen;
+}
+
+#item3 {
+    border-style: solid;
+    border-width: thick;
+    border-color: cornflowerblue;
+}
+
+#item4 {
+    border-style: dotted dashed solid;
+    border-width: thick;
+    border-color: lightseagreen;
+}
+
+#item5 {
+    border-top: thick solid #7f5200;
+    border-bottom: thick dashed #7f5200;
+    border-left: thick dotted #b67600;
+    border-right: thick solid #b67600;
+}
+
+#item6 {
+    border: 5px solid palegreen;
+    border-radius: 15px 0 15px 0;
+}
+
+#item7 {
+    border-radius: 50%;
+}
