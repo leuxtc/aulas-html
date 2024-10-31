@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: lightgreen;
+            width: 200px;
+            margin-bottom: 30px;
+        }
+
+        span {
+            background-color: green;
+            color: white;
+        }
+
+        #no-wrap {
+            white-space: nowrap;
+        }
+
+        #pre {
+            white-space: pre;
+        }
+
+        #pre-line {
+            white-space: pre-line;
+        }
+
+        #pre-wrap {
+            white-space: pre-wrap;
+        }
+
+        #break-spaces {
+            white-space: break-spaces;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade | <code>white-space</code></h1>
+
+    <h2>Exemplos:</h2>
+
+    <code>propriedade | normal</code><br><br>
+    <div>
+        <span>
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+
+    <code>propriedade | no-wrap</code><br><br>
+    <div>
+        <span id="no-wrap">
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+
+    <code>propriedade | pre</code><br><br>
+    <div>
+        <span id="pre">
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+
+    <code>propriedade | pre-line</code><br><br>
+    <div>
+        <span id="pre-line">
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+
+    <code>propriedade | pre-wrap</code><br><br>
+    <div>
+        <span id="pre-wrap">
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+
+    <code>propriedade | break-spaces</code><br><br>
+    <div>
+        <span id="break-spaces">
+            Lorem       ipsum dolor, sit amet consectetur adipisicing elit. Rem quae ab       beatae fugit nisi pariatur nobis et, maiores 
+            
+                    cumque provident consectetur error, accusamus suscipit quis,                   
+            
+            distinctio ea       voluptate veniam numquam?
+        </span>
+    </div>
+</body>
+</html>
