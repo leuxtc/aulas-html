@@ -8,7 +8,7 @@ ___
 
 O **agrupamento** é usado com uma ```,``` depois das propriedades, ira modificar todos elementos que estão agrupados
 
-```
+```css
     h1, p, div {
         ...
     }
@@ -18,7 +18,7 @@ O **agrupamento** é usado com uma ```,``` depois das propriedades, ira modifica
 
 Esse é um modo de chamar **elementos** que estão dentro de outros **elementos** de forma descendente da esquerda para direita apenas com **espaço**
 
-```
+```css
     div span p {
         ...
     }
@@ -34,7 +34,7 @@ Esse é um modo de chamar **elementos** que estão dentro de outros **elementos*
 
 Chama **elementos filhos** também de forma descendente com o combinador ```>```
 
-```
+```css
     div > span {
         ...
     }
@@ -50,7 +50,7 @@ Chama **elementos filhos** também de forma descendente com o combinador ```>```
 
 Chama por **elementos irmãos** que são elementos que vão estar proximos de tags no sentido de cima pra baixo com o combinador ```+```
 
-```
+```css
     div p + p {
         ...
     }

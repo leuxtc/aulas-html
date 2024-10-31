@@ -11,7 +11,7 @@ Seletores são formas de instanciar algum elemento do HTML, é possível instanc
 
 Esse seletor é usado para chamar por meio de ```<tags>```. Ele vai personalizar todas as ```<tags>``` que tiverem no HTML
 
-```
+```css
     h1 {
         ...
     }
@@ -22,7 +22,7 @@ Esse seletor é usado para chamar por meio de ```<tags>```. Ele vai personalizar
 ### ```class=""```:
 
 Esse é um modo que chama de forma genérica elementos através de um atributo ```class=""``` usando o seletor ```.```
-```
+```css
     .classe {
         ...
     }
@@ -34,7 +34,7 @@ Esse é um modo que chama de forma genérica elementos através de um atributo `
 
 Esse é um seletor que chama de forma única um elemento usando o atributo ```id=""``` com o seletor ```#```
 
-```
+```css
     #identificador {
         ...
     }
@@ -46,7 +46,7 @@ Esse é um seletor que chama de forma única um elemento usando o atributo ```id
 
 Esse seletor chama todos os elementos dentro de um HTML
 
-```
+```css
     * {
         ...
     }
@@ -59,7 +59,7 @@ Esse seletor chama todos os elementos dentro de um HTML
 
 Essa forma serve para chamar atráves de um **valor** de um **atributo**
 
-```
+```css
     [title="paragrafo"] {
         ...
     }

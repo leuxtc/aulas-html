@@ -19,8 +19,8 @@ ___
 
 É a forma para colorir usando o código hexadecimal de 6 dígitos por meio do ``#``,  sendo: 
 
-```
-    #00          00       00
+```css
+    # 00          00       00
      vermelho    azul     verde
 
     color: #ff0000; 
@@ -30,8 +30,8 @@ ___
 
 Adicinando mais 2 dígitos no código **hexadecimal**, é possível mudar sua **transparência**.
 
-```
-    #00          00       00        00
+```css
+    # 00          00       00        00
      vermelho    azul     verde     alpha
 
     color: #00ff0050; 
@@ -45,7 +45,7 @@ ___
 
 São formas mais diretas de mistura de cor usando a propriedade ```rgb()``` tendo valores de 0 a 255 para cada cor
 
-```
+```css
     rgb(RED, GREEN, BLUE)
 
     color: rgb(255, 255, 0); 
@@ -55,7 +55,7 @@ São formas mais diretas de mistura de cor usando a propriedade ```rgb()``` tend
 
 O ```rgba()``` é a mesma coisa porém com adicional do canal ```alpha``` (transparência) que funciona de 0 a 1, sendo 1 o 100%
 
-```
+```css
     rgb(RED, GREEN, BLUE)
 
     color: rgb(255, 255, 0, 0.5); 
@@ -81,7 +81,7 @@ O **HSL(Hue, Saturation, Lightness)** é usado com a propriedade ```hsl()```, e 
     - 50% valor padrão
     - 100% é branco
 
-```
+```css
     color: hsl(240, 100%, 50%); 
     
     //cor azul com sua saturação em 100% e sua porcentagem de 50% padrão
@@ -89,7 +89,7 @@ O **HSL(Hue, Saturation, Lightness)** é usado com a propriedade ```hsl()```, e 
 
 Ja o **HSLA(Hue, Saturation, Lightness, Alpha)** é a mesma coisa porém com seu canal de **transparência**(``alpha``)
 
-```
+```css
     h1 {
         color: hsla(0, 100%, 50%, 1); 
     }

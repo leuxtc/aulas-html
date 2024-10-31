@@ -4,7 +4,7 @@
 
 o **HTML Semântico** é uma forma de estruturação do HTML para melhor entendimento e leitura para robos ou humanos.
 
-```
+```html
 <body>                           <body>
     <div>...</div>                  <header></header>
     <div>...</div>                  <main></main>

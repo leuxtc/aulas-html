@@ -12,7 +12,7 @@ O **<u>CSS Inline</u>** é a forma de declaração que acontece dentro das próp
 
 O **<u>CSS Interno</u>** é uma declaração um pouco mais utilizavel, ela funciona com uma tag (```<style>```) dentro do head do arquivo HTML
 
-```
+```css
 <style>
     h1 {
         background-color: red;
@@ -30,14 +30,14 @@ O **<u>CSS Interno</u>** é uma declaração um pouco mais utilizavel, ela funci
 O **<u>CSS Externo</u>** é a forma mais utilizada e indicada para se declarar um CSS, ela funciona como um arquivo externo **.css** separado, que pode ser usado e reutilizado aonde você quiser pela tag ```<link>```
 
 | exemplo/index.html:
-```
+```html
 
 <link rel="stylesheet" href="exemplo/css/style.css">
 
 ```
 
 | exemplo/css/style.css:
-```
+```css
 h1 {
     background-color: red;
     color: white;
