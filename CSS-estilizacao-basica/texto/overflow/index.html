@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: greenyellow;
+            width: 200px;
+            text-wrap: nowrap;
+        }
+
+        p {
+            overflow: hidden;
+        }
+
+        #clip {
+            text-overflow: clip;
+        }
+
+        #ellipsis {
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade | <code>text-overflow</code></h1>
+
+    <div>
+        <p id="clip">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, iure vel ullam quis sed impedit corrupti? Iusto voluptate cum quo expedita nesciunt adipisci debitis temporibus porro ipsam delectus. Ducimus, illo?</p>
+    </div>
+
+    <div>
+        <p id="ellipsis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, iure vel ullam quis sed impedit corrupti? Iusto voluptate cum quo expedita nesciunt adipisci debitis temporibus porro ipsam delectus. Ducimus, illo?</p>
+    </div>
+</body>
+</html>
